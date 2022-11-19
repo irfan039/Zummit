@@ -1,0 +1,63 @@
+.bg-container{
+    background-color: whitesmoke;
+    height: auto;
+    padding: 20px;
+
+}
+.profilehead{
+    color: rgb(32, 231, 165);
+    font-weight: 400;
+}
+
+.image{
+    width: 55px;
+    height: 65px;
+}
+.url{
+    width: 29vw;
+}
+
+.tag{
+ max-width: 220px;
+ text-align: center;
+ margin: auto;
+ position: relative;
+}
+.tag:before{
+    content: "";
+    width: 10vw;
+    height: 1px;
+    display: block;
+    background:grey;
+    position: absolute;
+    top: 50%;
+    left: 0;
+
+}
+.tag:after{
+    content: "";
+    width: 10vw;
+    height: 1px;
+    display: block;
+    background:grey;
+    position: absolute;
+    top: 50%;
+    right: 0;
+
+}
+.span1{
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 200px;
+}
+.span2{
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 200px;
+}
+.required{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+}
